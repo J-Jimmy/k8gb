@@ -1,20 +1,23 @@
-<h1 align=center>K8GB - Kubernetes Global Balancer<a href="https://www.k8gb.io"></h1>
-<p align=center><a href="https://landscape.cncf.io/?selected=k8gb">CNCF Sandbox Project</p>
-<p align=center><a href="https://landscape.cncf.io/card-mode?category=coordination-service-discovery&grouping=category">CNCF Coordination &amp; Service Discovery</p>
-<p align=center><a href="https://cloud-native.slack.com/archives/C021P656HGB">Join #k8gb on CNCF Slack<a></p>
+<p align="center" class="disable-logo">
+<a href="#"><img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/k8gb/icon/color/k8gb-icon-color.svg" width="200"/></a>
+</p>
+<h1 align="center" style="margin-top: 0;">K8GB - Kubernetes Global Balancer<a href="https://www.k8gb.io"></h1>
+<p align="center"><a href="https://landscape.cncf.io/?selected=k8gb">CNCF Sandbox Project</p>
+<p align="center"><a href="https://landscape.cncf.io/card-mode?category=coordination-service-discovery&grouping=category">CNCF Coordination &amp; Service Discovery</p>
+<p align="center"><a href="https://cloud-native.slack.com/archives/C021P656HGB">Join #k8gb on CNCF Slack<a></p>
 
 [![License: MIT](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Build Status](https://github.com/AbsaOSS/k8gb/workflows/build/badge.svg?branch=master)](https://github.com/k8gb-io/k8gb/actions?query=workflow%3A%22Golang+lint+and+test%22+branch%3Amaster)
-[![Terratest Status](https://github.com/AbsaOSS/k8gb/workflows/Terratest/badge.svg?branch=master)](https://github.com/AbsaOSS/k8gb/actions?query=workflow%3ATerratest+branch%3Amaster)
-[![Gosec](https://github.com/AbsaOSS/k8gb/workflows/Gosec/badge.svg?branch=master)](https://github.com/AbsaOSS/k8gb/actions?query=workflow%3AGosec+branch%3Amaster)
-[![CodeQL](https://github.com/AbsaOSS/k8gb/workflows/CodeQL/badge.svg?branch=master)](https://github.com/AbsaOSS/k8gb/actions?query=workflow%3ACodeQL+branch%3Amaster)
-[![Go Report Card](https://goreportcard.com/badge/github.com/AbsaOSS/k8gb)](https://goreportcard.com/report/github.com/AbsaOSS/k8gb)
-[![Helm Publish](https://github.com/AbsaOSS/k8gb/workflows/Helm%20Publish/badge.svg?branch=master)](https://github.com/AbsaOSS/k8gb/actions?query=workflow%3A%22Helm+Publish%22)
-[![KubeLinter](https://github.com/AbsaOSS/k8gb/workflows/KubeLinter/badge.svg?branch=master)](https://github.com/AbsaOSS/k8gb/actions?query=workflow%3AKubeLinter+branch%3Amaster)
+[![Build Status](https://github.com/k8gb-io/k8gb/workflows/build/badge.svg?branch=master)](https://github.com/k8gb-io/k8gb/actions?query=workflow%3A%22Golang+lint+and+test%22+branch%3Amaster)
+[![Terratest Status](https://github.com/k8gb-io/k8gb/workflows/Terratest/badge.svg?branch=master)](https://github.com/k8gb-io/k8gb/actions?query=workflow%3ATerratest+branch%3Amaster)
+[![Gosec](https://github.com/k8gb-io/k8gb/workflows/Gosec/badge.svg?branch=master)](https://github.com/k8gb-io/k8gb/actions?query=workflow%3AGosec+branch%3Amaster)
+[![CodeQL](https://github.com/k8gb-io/k8gb/workflows/CodeQL/badge.svg?branch=master)](https://github.com/k8gb-io/k8gb/actions?query=workflow%3ACodeQL+branch%3Amaster)
+[![Go Report Card](https://goreportcard.com/badge/github.com/k8gb-io/k8gb)](https://goreportcard.com/report/github.com/k8gb-io/k8gb)
+[![Helm Publish](https://github.com/k8gb-io/k8gb/workflows/Helm%20Publish/badge.svg?branch=master)](https://github.com/k8gb-io/k8gb/actions?query=workflow%3A%22Helm+Publish%22)
+[![KubeLinter](https://github.com/k8gb-io/k8gb/workflows/KubeLinter/badge.svg?branch=master)](https://github.com/k8gb-io/k8gb/actions?query=workflow%3AKubeLinter+branch%3Amaster)
 [![Docker Pulls](https://img.shields.io/docker/pulls/absaoss/k8gb)](https://hub.docker.com/r/absaoss/k8gb)
 [![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/k8gb)](https://artifacthub.io/packages/search?repo=k8gb)
-[![doc.crds.dev](https://img.shields.io/badge/doc-crds-purple)](https://doc.crds.dev/github.com/absaoss/k8gb)
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B162%2Fgithub.com%2FAbsaOSS%2Fk8gb.svg?type=shield)](https://app.fossa.com/projects/custom%2B162%2Fgithub.com%2FAbsaOSS%2Fk8gb?ref=badge_shield)
+[![doc.crds.dev](https://img.shields.io/badge/doc-crds-purple)](https://doc.crds.dev/github.com/k8gb-io/k8gb)
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B162%2Fgithub.com%2Fk8gb-io%2Fk8gb.svg?type=shield)](https://app.fossa.com/projects/custom%2B162%2Fgithub.com%2Fk8gb-io%2Fk8gb?ref=badge_shield)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4866/badge)](https://bestpractices.coreinfrastructure.org/projects/4866)
 
 A Global Service Load Balancing solution with a focus on having cloud native qualities and work natively in a Kubernetes context.
@@ -121,8 +124,9 @@ If your Kubernetes version or Ingress controller is not included in the table ab
 
 [//]: # (Table is generated with the help of https://www.tablesgenerator.com/markdown_tables#)
 
-| **NS1 INS1GHTS**<br>[![](https://img.youtube.com/vi/T_4EiAqwevI/0.jpg)](https://www.youtube.com/watch?v=T_4EiAqwevI "INS1GHTS: Cloud Native Global Load Balancer for Kubernetes") | **Crossplane Community Day**<br>[![](https://img.youtube.com/vi/5l4Xf_Q8ybY/0.jpg)](https://www.youtube.com/watch?v=5l4Xf_Q8ybY "Crossplane Community Day Europe: Scaling Kubernetes Global Balancer with Crossplane") |
+| **KubeCon NA 2021**<br>[![](https://img.youtube.com/vi/-lkKZRdv81A/0.jpg)](https://www.youtube.com/watch?v=-lkKZRdv81A "KubeCon NA 2021: Cloud Native Global Load Balancer for Kubernetes") |  |
 |---|---|
+| **NS1 INS1GHTS**<br>[![](https://img.youtube.com/vi/T_4EiAqwevI/0.jpg)](https://www.youtube.com/watch?v=T_4EiAqwevI "INS1GHTS: Cloud Native Global Load Balancer for Kubernetes") | **Crossplane Community Day**<br><br>[![](https://img.youtube.com/vi/5l4Xf_Q8ybY/0.jpg)](https://www.youtube.com/watch?v=5l4Xf_Q8ybY "Crossplane Community Day Europe: Scaling Kubernetes Global Balancer with Crossplane") |
 | **#29 DoK Community**<br>[![](https://img.youtube.com/vi/MluFlwPFZws/hqdefault.jpg)](https://www.youtube.com/watch?v=MluFlwPFZws "#29 DoK Community: How Absa Developed Cloud Native Global Load Balancer for Kubernetes") | **AWS Containers from the Couch show**<br>[![](https://img.youtube.com/vi/5pe3ezSnVI8/hqdefault.jpg)](https://www.youtube.com/watch?v=5pe3ezSnVI8 "AWS Containers from the Couch") |
 | **OpenShift Commons Briefings**<br>[![](https://img.youtube.com/vi/5DhO9C2NCrk/0.jpg)](https://www.youtube.com/watch?v=5DhO9C2NCrk "OpenShift Commons Briefings") | **Demo at Kubernetes SIG Multicluster**<br>[![](https://img.youtube.com/vi/jeUeRQM-ZyM/0.jpg)](https://www.youtube.com/watch?v=jeUeRQM-ZyM "Kubernetes SIG Multicluster") |
 
